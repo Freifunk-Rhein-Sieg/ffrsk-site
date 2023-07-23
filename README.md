@@ -1,6 +1,6 @@
 
 # ffve-site
-# site.conf for Rheinbach Domain
+# site.conf for Voreifel Domains
 # generated for 2022.x based gluon
 # openwrt
 
