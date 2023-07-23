@@ -1,6 +1,6 @@
 
 # ffnk-site
-# site.conf for Niederkassel Domain
+# site.conf for Rheinbach Domain
 # generated for 2022.x based gluon
 # openwrt
 
