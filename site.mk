@@ -20,6 +20,7 @@ GLUON_SITE_PACKAGES := \
     gluon-web-network \
     gluon-web-private-wifi \
     gluon-web-wifi-config \
+    gluon-hoodselector \
     gluon-mesh-batman-adv-15 \
     gluon-mesh-vpn-tunneldigger \
     gluon-neighbour-info \
@@ -40,7 +41,7 @@ GLUON_SITE_PACKAGES := \
     rsk-robinson
 
 
-DEFAULT_GLUON_RELEASE := stable-3.7.1
+DEFAULT_GLUON_RELEASE := stable-3.8.0
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
