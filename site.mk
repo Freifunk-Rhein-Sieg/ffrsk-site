@@ -15,6 +15,7 @@ GLUON_SITE_PACKAGES := \
     gluon-ebtables-filter-ra-dhcp \
     gluon-ebtables-source-filter \
     gluon-ebtables-limit-arp \
+    gluon-l3roamd \
     gluon-web-admin \
     gluon-web-autoupdater \
     gluon-web-network \
@@ -30,6 +31,7 @@ GLUON_SITE_PACKAGES := \
     gluon-setup-mode \
     gluon-ssid-changer \
     gluon-status-page \
+    gluon-status-page-api \
     gluon-status-page-mesh-batman-adv \
     haveged \
     iwinfo \
