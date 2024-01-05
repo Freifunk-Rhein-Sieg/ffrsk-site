@@ -1,16 +1,53 @@
-packages {'iwinfo'}
+ 
+    
 
+
+
+
+packages {'haveged' 
+    	'iwinfo',
+    	'iw-full', 
+    	'rsk-nightswitch',
+    	'gluon-rsk-block-mesh',
+    	'gluon-ping-check',
+    	'gluon-rsk-config',
+	'gluon-check-client-mesh',
+	'gluon-check-mesh'
+}
 features {
 	'autoupdater',
+	'banner',
+	'config-mode-autoupdater',
+	'config-mode-contact-info',
+	'config-mode-core',
+	'config-mode-geo-location',
+	'config-mode-hostname',
+	'config-mode-mesh-vpn',
+	'core',
+	'ebtables',
 	'ebtables-filter-multicast',
 	'ebtables-filter-ra-dhcp',
+	'ebtables-source-filter',
 	'ebtables-limit-arp',
 	'mesh-batman-adv-15',
+	'mesh-vpn-tunneldigger',
 	'mesh-vpn-fastd',
+	'neighbour-info',
+	'radvd',
 	'respondd',
+	'respondd-module-airtime',
+	'setup-mode',
+	'ssid-changer',
 	'status-page',
+	'status-page-mesh-batman-adv',
 	'web-advanced',
-	'web-wizard'
+	'web-wizard',
+	'web-admin',
+	'web-autoupdater',
+	'web-network',
+	'web-private-wifi',
+	'web-wifi-config'
+	
 }
 
 if not device_class('tiny') then
