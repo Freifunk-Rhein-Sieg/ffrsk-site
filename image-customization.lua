@@ -41,7 +41,6 @@ features {
 	'web-network',
 	'web-private-wifi',
 	'web-wifi-config'
-	
 }
 
 if not device_class('tiny') then
