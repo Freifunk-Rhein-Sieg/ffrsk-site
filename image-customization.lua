@@ -1,10 +1,4 @@
- 
-    
-
-
-
-
-packages {'haveged' 
+ packages {'haveged' 
     	'iwinfo',
     	'iw-full', 
     	'rsk-nightswitch',
