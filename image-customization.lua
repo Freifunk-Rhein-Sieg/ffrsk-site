@@ -9,8 +9,7 @@
 	'gluon-check-client-mesh',
 	'gluon-check-mesh'
 }
-features {
-	'autoupdater',
+features {'autoupdater',
 	'banner',
 	'config-mode-autoupdater',
 	'config-mode-contact-info',
