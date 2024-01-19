@@ -1,4 +1,4 @@
- packages {'community-mesh-vpn-tunneldigger',
+ packages {'ff-mesh-vpn-tunneldigger',
 	'haveged' 
     	'iwinfo',
     	'iw-full', 
