@@ -1,4 +1,5 @@
- packages {'haveged' 
+packages {'ff-mesh-vpn-tunneldigger',
+	'haveged' 
     	'iwinfo',
     	'iw-full', 
     	'rsk-nightswitch',
@@ -24,7 +25,6 @@ features {
 	'ebtables-source-filter',
 	'ebtables-limit-arp',
 	'mesh-batman-adv-15',
-	'mesh-vpn-tunneldigger',
 	'neighbour-info',
 	'radvd',
 	'respondd',
