@@ -1,5 +1,6 @@
 -- Generic features and packages for all devices
-features({'autoupdater',
+features({
+	'autoupdater',
 	'banner',
 	'config-mode-autoupdater',
 	'config-mode-contact-info',
@@ -31,7 +32,8 @@ features({'autoupdater',
 	'web-wifi-config'
 })
 
-packages({'ff-mesh-vpn-tunneldigger',
+packages({
+	'ff-mesh-vpn-tunneldigger',
 	'haveged' 
     	'iwinfo',
     	'iw-full', 
