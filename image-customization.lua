@@ -1,4 +1,4 @@
- packages {'ff-mesh-vpn-tunneldigger',
+packages({'ff-mesh-vpn-tunneldigger',
 	'haveged' 
     	'iwinfo',
     	'iw-full', 
@@ -8,9 +8,8 @@
     	'gluon-rsk-config',
 	'gluon-check-client-mesh',
 	'gluon-check-mesh'
-}
-features {
-	'autoupdater',
+})
+features({'autoupdater',
 	'banner',
 	'config-mode-autoupdater',
 	'config-mode-contact-info',
@@ -40,10 +39,4 @@ features {
 	'web-network',
 	'web-private-wifi',
 	'web-wifi-config'
-}
-
-if not device_class('tiny') then
-	features {
-		'wireless-encryption-wpa3'
-	}
-end
+})
