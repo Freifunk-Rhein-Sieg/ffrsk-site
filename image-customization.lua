@@ -1,5 +1,5 @@
 -- Generic features and packages for all devices
-features({
+features {
 	'autoupdater',
 	'banner',
 	'config-mode-autoupdater',
@@ -30,9 +30,9 @@ features({
 	'web-network',
 	'web-private-wifi',
 	'web-wifi-config'
-})
+}
 
-packages({
+packages {
 	'ff-mesh-vpn-tunneldigger',
 	'haveged' 
     	'iwinfo',
@@ -43,7 +43,7 @@ packages({
     	'gluon-rsk-config',
 	'gluon-check-client-mesh',
 	'gluon-check-mesh'
-})
+}
 
 -- Custom package lists
 local pkgs_usb_hid = {
