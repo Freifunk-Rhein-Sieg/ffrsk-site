@@ -35,12 +35,12 @@ packages {
 }	
 features {
 	'autoupdater',
-	'gluon-config-mode-autoupdater',
-	'gluon-config-mode-contact-info',
-	'gluon-config-mode-core',
-	'gluon-config-mode-geo-location',
-	'gluon-config-mode-hostname',
-	'gluon-config-mode-mesh-vpn',
+	'config-mode-autoupdater',
+	'config-mode-contact-info',
+	'config-mode-core',
+	'config-mode-geo-location',
+	'config-mode-hostname',
+	'config-mode-mesh-vpn',
 	'ebtables-filter-multicast',
 	'ebtables-filter-ra-dhcp',
 	'ebtables-source-filter',
