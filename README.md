@@ -13,3 +13,4 @@ Please look into separate branch for Domain related setup.
 - v2021.x_ffrsk- = new gluon 3.5.x firmware for Domains on Siegburg supernodes
 - v2021.x_nk = new gluon 3.5.x firmware for Domains on Niederkassel supernodes
 - v2022.x_ffrsk = new gluon 3.7.x firmware for Domains on Siegburg supernodes
+- v2023.x_ffrsk = new gluon 3.9.x firmware for Domains on Siegburg supernodes - external tunneldigger repo used
