@@ -1,28 +1,54 @@
 -- Generic features and packages for all devices
-features({
+packages {
+	'ff-mesh-vpn-tunneldigger',
+	'gluon-autoupdater',
+	'gluon-core',
+	'gluon-banner',
+	'gluon-check-client-mesh',
+	'gluon-check-mesh',
+	'gluon-ebtables',
+	'gluon-ebtables-filter-multicast',
+	'gluon-ebtables-filter-ra-dhcp',
+	'gluon-ebtables-source-filter',
+	'gluon-ebtables-limit-arp',
+	'gluon-web-admin',
+	'gluon-web-autoupdater',
+	'gluon-web-network',
+	'gluon-web-private-wifi',
+	'gluon-web-wifi-config',
+	'gluon-mesh-batman-adv-15',
+	'gluon-neighbour-info',
+	'gluon-radvd',
+	'gluon-respondd',
+	'respondd-module-airtime',
+	'gluon-setup-mode',
+	'gluon-ssid-changer',
+	'gluon-status-page',
+	'gluon-status-page-mesh-batman-adv',
+	'haveged',
+	'iwinfo',
+	'iw-full',
+	'rsk-nightswitch',
+	'gluon-rsk-block-mesh',
+	'gluon-ping-check',
+	'gluon-rsk-config'
+}	
+features {
 	'autoupdater',
-	'banner',
 	'config-mode-autoupdater',
 	'config-mode-contact-info',
 	'config-mode-core',
 	'config-mode-geo-location',
 	'config-mode-hostname',
 	'config-mode-mesh-vpn',
-	'core',
-	'ebtables',
 	'ebtables-filter-multicast',
 	'ebtables-filter-ra-dhcp',
 	'ebtables-source-filter',
 	'ebtables-limit-arp',
 	'mesh-batman-adv-15',
-	'neighbour-info',
-	'radvd',
 	'respondd',
-	'respondd-module-airtime',
 	'setup-mode',
-	'ssid-changer',
 	'status-page',
-	'status-page-mesh-batman-adv',
 	'web-advanced',
 	'web-wizard',
 	'web-admin',
@@ -30,20 +56,9 @@ features({
 	'web-network',
 	'web-private-wifi',
 	'web-wifi-config'
-})
+}
 
-packages({
-	'ff-mesh-vpn-tunneldigger',
-	'haveged' 
-    	'iwinfo',
-    	'iw-full', 
-    	'rsk-nightswitch',
-    	'gluon-rsk-block-mesh',
-    	'gluon-ping-check',
-    	'gluon-rsk-config',
-	'gluon-check-client-mesh',
-	'gluon-check-mesh'
-})
+
 
 -- Custom package lists
 local pkgs_usb_hid = {
