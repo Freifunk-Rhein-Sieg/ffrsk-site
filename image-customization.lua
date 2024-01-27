@@ -1,4 +1,16 @@
 -- Generic features and packages for all devices
+packages {
+	'ff-mesh-vpn-tunneldigger',
+	'haveged' 
+    	'iwinfo',
+    	'iw-full', 
+    	'rsk-nightswitch',
+    	'gluon-rsk-block-mesh',
+    	'gluon-ping-check',
+    	'gluon-rsk-config',
+	'gluon-check-client-mesh',
+	'gluon-check-mesh'
+}
 features {
 	'autoupdater',
 	'banner',
@@ -30,19 +42,6 @@ features {
 	'web-network',
 	'web-private-wifi',
 	'web-wifi-config'
-}
-
-packages {
-	'ff-mesh-vpn-tunneldigger',
-	'haveged' 
-    	'iwinfo',
-    	'iw-full', 
-    	'rsk-nightswitch',
-    	'gluon-rsk-block-mesh',
-    	'gluon-ping-check',
-    	'gluon-rsk-config',
-	'gluon-check-client-mesh',
-	'gluon-check-mesh'
 }
 
 -- Custom package lists
