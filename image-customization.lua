@@ -1,40 +1,40 @@
 -- Generic features and packages for all devices
 packages {
+	'ebtables',
 	'ff-mesh-vpn-tunneldigger',
-	'haveged' 
-    	'iwinfo',
-    	'iw-full', 
-    	'rsk-nightswitch',
-    	'gluon-rsk-block-mesh',
+	'gluon-banner',
+    	'gluon-core',
+	'gluon-rsk-block-mesh',
     	'gluon-ping-check',
     	'gluon-rsk-config',
 	'gluon-check-client-mesh',
-	'gluon-check-mesh'
-}
+	'gluon-check-mesh',
+	'gluon-ssid-changer',
+	'gluon-status-page-mesh-batman-adv',
+	'haveged' 
+    	'iwinfo',
+    	'iw-full',
+	'neighbour-info',
+	'radvd',
+	'respondd-module-airtime',
+    	'rsk-nightswitch'
+}	
 features {
 	'autoupdater',
-	'banner',
-	'config-mode-autoupdater',
-	'config-mode-contact-info',
-	'config-mode-core',
-	'config-mode-geo-location',
-	'config-mode-hostname',
-	'config-mode-mesh-vpn',
-	'core',
-	'ebtables',
+	'gluon-config-mode-autoupdater',
+	'gluon-config-mode-contact-info',
+	'gluon-config-mode-core',
+	'gluon-config-mode-geo-location',
+	'gluon-config-mode-hostname',
+	'gluon-config-mode-mesh-vpn',
 	'ebtables-filter-multicast',
 	'ebtables-filter-ra-dhcp',
 	'ebtables-source-filter',
 	'ebtables-limit-arp',
 	'mesh-batman-adv-15',
-	'neighbour-info',
-	'radvd',
 	'respondd',
-	'respondd-module-airtime',
 	'setup-mode',
-	'ssid-changer',
 	'status-page',
-	'status-page-mesh-batman-adv',
 	'web-advanced',
 	'web-wizard',
 	'web-admin',
@@ -43,6 +43,8 @@ features {
 	'web-private-wifi',
 	'web-wifi-config'
 }
+
+
 
 -- Custom package lists
 local pkgs_usb_hid = {
