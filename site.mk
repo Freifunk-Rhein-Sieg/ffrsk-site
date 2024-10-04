@@ -11,3 +11,6 @@ GLUON_WLAN_MESH ?= 11s
 
 # Do build images for deprecated devices
 GLUON_DEPRECATED ?= full
+
+# Enable Multidomain
+GLUON_MULTIDOMAIN=1
