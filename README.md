@@ -1,5 +1,6 @@
 # fflo-site
-# site.conf for Lohmar Domain
+# site.conf for Multidomain
+# currently for testing only
 # for v2023.x - based gluon
 # openwrt
 
