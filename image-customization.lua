@@ -6,6 +6,7 @@ packages {
 	'gluon-banner',
 	'gluon-check-client-mesh',
 	'gluon-check-mesh',
+	'config-mode-domain-select',
 	'gluon-ebtables',
 	'gluon-ebtables-filter-multicast',
 	'gluon-ebtables-filter-ra-dhcp',
