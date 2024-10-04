@@ -2,6 +2,9 @@
 # ffve-site
 # site.conf for Voreifel Domains
 # generated for 2023.x based gluon
+#
+# incomplete - do not use
+#
 # openwrt
 
 # W.i.P.
