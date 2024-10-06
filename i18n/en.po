@@ -18,6 +18,9 @@ msgstr ""
 "Please note, that the email address in the contact field will be"
 "publicly visible."
 
+msgid "gluon-config-mode:domain"
+msgstr "Domain"
+
 msgid "gluon-config-mode:pubkey"
 msgstr ""
 "This is your Freifunk node's public key. The registration of the node "
