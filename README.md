@@ -1,4 +1,4 @@
-# fflo-site
+# rsk_multi - site
 # site.conf for Multidomain
 # currently for testing only
 # for v2023.x - based gluon
