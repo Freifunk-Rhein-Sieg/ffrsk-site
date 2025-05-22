@@ -129,7 +129,7 @@ case $CHOICE in
         8)
              echo "x86-generic"
              make -j$X V=s GLUON_TARGET=x86-generic clean; make -j$X V=s GLUON_TARGET=x86-generic GLUON_AUTOUPDATER_BRANCH=stable GLUON_AUTOUPDATER_ENABLED=1
-
+	     ;;
         9)
              echo "x86-geode"
              make -j$X V=s GLUON_TARGET=x86-geode clean; make -j$X V=s GLUON_TARGET=x86-geode GLUON_AUTOUPDATER_BRANCH=stable GLUON_AUTOUPDATER_ENABLED=1
