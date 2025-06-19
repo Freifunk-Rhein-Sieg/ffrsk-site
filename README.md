@@ -1,6 +1,6 @@
-# rsk_multi - site
+# tdf_multi - site
 # site.conf for Multidomain
-# currently for testing only
+# Troisdorf Hoods only
 # for v2023.x - based gluon
 # openwrt
 
