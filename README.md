@@ -1,5 +1,5 @@
 # fflo-site
-# site.conf for Porz Domain
+# site.conf for Hennef Domain
 # generated for 2023.x based gluon
 # openwrt
 
