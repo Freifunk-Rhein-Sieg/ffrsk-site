@@ -1,7 +1,7 @@
 GLUON_SITE_FEEDS='rsk community'
 
 PACKAGES_RSK_REPO=https://github.com/Freifunk-Rhein-Sieg/freifunk-packages
-PACKAGES_RSK_COMMIT=2d360465a5d2785b70bedb7eb8c35dc4c5b8f126
+PACKAGES_RSK_COMMIT=96a45c1d97367231e7862f05c6773a9b897499a3
 PACKAGES_RSK_BRANCH=master
 
 
