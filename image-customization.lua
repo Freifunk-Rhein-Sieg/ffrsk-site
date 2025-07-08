@@ -9,8 +9,8 @@ packages {
 	'gluon-ebtables',
 	'gluon-ebtables-filter-multicast',
 	'gluon-ebtables-filter-ra-dhcp',
-	'gluon-ebtables-source-filter',
-	'gluon-ebtables-limit-arp',
+	-- 'gluon-ebtables-source-filter',
+	-- 'gluon-ebtables-limit-arp',
 	'gluon-web-admin',
 	'gluon-web-autoupdater',
 	'gluon-web-network',
@@ -44,8 +44,8 @@ features {
 	'config-mode-domain-select',
 	'ebtables-filter-multicast',
 	'ebtables-filter-ra-dhcp',
-	'ebtables-source-filter',
-	'ebtables-limit-arp',
+	-- 'ebtables-source-filter',
+	-- 'ebtables-limit-arp',
 	'mesh-batman-adv-15',
 	'respondd',
 	'setup-mode',
@@ -56,7 +56,8 @@ features {
 	'web-autoupdater',
 	'web-network',
 	'web-private-wifi',
-	'web-wifi-config'
+	'web-wifi-config',
+	'web-node-role' 
 }
 
 
