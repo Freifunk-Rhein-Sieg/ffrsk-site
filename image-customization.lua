@@ -35,7 +35,6 @@ packages {
 	'gluon-rsk-config'
 }	
 features {
-	'autoupdater',
 	'config-mode-autoupdater',
 	'config-mode-contact-info',
 	'config-mode-core',
@@ -43,10 +42,6 @@ features {
 	'config-mode-hostname',
 	'config-mode-mesh-vpn',
 	'config-mode-domain-select',
-	'ebtables-filter-multicast',
-	'ebtables-filter-ra-dhcp',
-	-- 'ebtables-source-filter',
-	-- 'ebtables-limit-arp',
 	'mesh-batman-adv-15',
 	'respondd',
 	'web-advanced',
