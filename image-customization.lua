@@ -43,7 +43,6 @@ features {
 	'config-mode-mesh-vpn',
 	'config-mode-domain-select',
 	'mesh-batman-adv-15',
-	'respondd',
 	'web-advanced',
 	'web-wizard'
 }
