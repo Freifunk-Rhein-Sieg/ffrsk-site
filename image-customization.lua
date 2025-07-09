@@ -42,7 +42,6 @@ features {
 	'config-mode-hostname',
 	'config-mode-mesh-vpn',
 	'config-mode-domain-select',
-	'mesh-batman-adv-15',
 	'web-advanced',
 	'web-wizard'
 }
