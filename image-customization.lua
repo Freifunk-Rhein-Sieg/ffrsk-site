@@ -18,6 +18,7 @@ packages {
 	'gluon-web-wifi-config',
 	'gluon-mesh-batman-adv-15',
 	'gluon-neighbour-info',
+	'gluon-web-node-role',
 	'gluon-radvd',
 	'gluon-respondd',
 	'respondd-module-airtime',
@@ -48,16 +49,8 @@ features {
 	-- 'ebtables-limit-arp',
 	'mesh-batman-adv-15',
 	'respondd',
-	'setup-mode',
-	'status-page',
 	'web-advanced',
-	'web-wizard',
-	'web-admin',
-	'web-autoupdater',
-	'web-network',
-	'web-private-wifi',
-	'web-wifi-config',
-	'web-node-role'
+	'web-wizard'
 }
 
 
