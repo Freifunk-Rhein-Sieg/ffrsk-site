@@ -1,5 +1,5 @@
 # fflo-site
-# site.conf for Hennef Domain
+# site.conf for Event Domain
 # generated for 2023.x based gluon
 # openwrt
 
