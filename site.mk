@@ -1,4 +1,4 @@
-DEFAULT_GLUON_RELEASE := stable-3.13.0
+DEFAULT_GLUON_RELEASE := stable-3.14.0
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
