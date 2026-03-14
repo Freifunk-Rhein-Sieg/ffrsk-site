@@ -1,5 +1,5 @@
 # fflo-site
-# site.conf for Event Domain
+# site.conf for Rheinbach Domain
 # generated for 2025.x based gluon
 # openwrt
 
